@@ -3,44 +3,26 @@
     {
       "name": "Md. Likhon Hossain ",
       "type": "income",
-      "amount": 55,
+      "amount": 800,
       "id": 1
     },
     {
-      "name": "Md. Omar Faruq",
+      "name": "faruq",
       "type": "expense",
-      "amount": 556,
+      "amount": 1500,
       "id": 2
     },
     {
-      "name": "",
-      "type": "income",
-      "amount": 55,
+      "name": "Md. Likhon Hossain ",
+      "type": "expense",
+      "amount": 150088,
       "id": 3
     },
     {
-      "name": "The Revenant",
+      "name": "Md. Likhon Hossain ",
       "type": "income",
-      "amount": 500,
+      "amount": 1500,
       "id": 4
-    },
-    {
-      "name": "test",
-      "type": "income",
-      "amount": "200",
-      "id": 5
-    },
-    {
-      "name": "test",
-      "type": "expense",
-      "amount": 500,
-      "id": 6
-    },
-    {
-      "name": "test",
-      "type": "income",
-      "amount": 55,
-      "id": 7
     }
   ]
 }
