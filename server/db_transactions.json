@@ -1,22 +1,10 @@
 {
   "transactions": [
     {
-      "name": "omar_faruq",
-      "amount": "333",
-      "type": "expense",
+      "name": "Md. Likhon",
+      "amount": "666",
+      "type": "income",
       "id": 1
-    },
-    {
-      "name": "Md. Omar Faruq",
-      "amount": "333333",
-      "type": "income",
-      "id": 2
-    },
-    {
-      "name": "faruq",
-      "type": "income",
-      "amount": 444,
-      "id": 3
     }
   ]
 }
