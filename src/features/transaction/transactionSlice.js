@@ -3,7 +3,7 @@ import {
     addTransaction,
     deleteTransaction,
     editTransaction,
-    getTransactions,
+    getTransactions
 } from "./transactionAPI";
 
 const initialState = {
@@ -11,6 +11,7 @@ const initialState = {
     isLoading: false,
     isError: false,
     error: "",
+    editing:{},
 };
 
 // async thunks
@@ -50,6 +51,14 @@ export const removeTransaction = createAsyncThunk(
 const transactionSlice = createSlice({
     name: "transaction",
     initialState,
+    reducers: {
+        editActive:(state, action)=>{
+            state.editing = action.payload;
+        },
+        editingActive:(state)=>{
+            state.editing = {};
+        }
+    },
     extraReducers: (builder) => {
         builder
             .addCase(fetchTransactions.pending, (state) => {
@@ -121,3 +130,4 @@ const transactionSlice = createSlice({
 });
 
 export default transactionSlice.reducer;
+export const {editActive,editingActive}= transactionSlice.actions;

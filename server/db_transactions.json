@@ -1,28 +1,22 @@
 {
   "transactions": [
     {
-      "name": "Md. Likhon Hossain ",
-      "type": "income",
-      "amount": 800,
+      "name": "omar_faruq",
+      "amount": "333",
+      "type": "expense",
       "id": 1
     },
     {
-      "name": "faruq",
-      "type": "expense",
-      "amount": 1500,
+      "name": "Md. Omar Faruq",
+      "amount": "333333",
+      "type": "income",
       "id": 2
     },
     {
-      "name": "Md. Likhon Hossain ",
-      "type": "expense",
-      "amount": 150088,
-      "id": 3
-    },
-    {
-      "name": "Md. Likhon Hossain ",
+      "name": "faruq",
       "type": "income",
-      "amount": 1500,
-      "id": 4
+      "amount": 444,
+      "id": 3
     }
   ]
 }
